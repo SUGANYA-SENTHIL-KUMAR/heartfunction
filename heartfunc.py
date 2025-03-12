@@ -15,8 +15,8 @@ def heart_silhouette():
     plt.plot(a, b, color='black', linewidth=3)
     plt.axhline(0, color='gray', linewidth=0.5) 
     plt.axvline(0, color='gray', linewidth=0.5) 
-    plt.xlabel("X-axis")  # Add x-axis label
-    plt.ylabel("Y-axis")  # Add y-axis label
+    plt.xlabel("X-axis")  
+    plt.ylabel("Y-axis")  
     plt.axis("equal")
     plt.show()
 
